@@ -1,0 +1,171 @@
+body{
+	height: 100%;
+}
+/*页头*/
+.container-fluid{
+	border-bottom: 3px solid #659366;
+}
+.header{
+	margin: 25px;
+}
+#title{
+	font-size: 48px;
+	color: #3c763dc9;
+	width: auto;
+
+}
+.welcome{
+	font-size: 24px;
+	display: inline-block;
+	padding-left: 20px;
+}
+.input-group .btn-success{
+	background-color: #3c763dc9;
+}
+.input-group {
+	margin-top: 12px;
+	padding-left: 20px;
+}
+.input-group >input:focus{
+	border-color: #62c84194;
+
+}
+/*页尾*/
+.modal-footer{
+	background-color:#fff;
+	height: 220px;
+	margin-top: 20px;
+	text-align: center;
+	color: #6f9966;
+	height: 60px; 
+	margin-top: -60px;
+
+}
+
+
+
+.cart{
+		border: 1px solid #dadada;
+		width: 80%;
+		margin: 10px auto;  /*水平居中*/
+	}
+	.cart-header,
+	.item,
+	.cart-footer{
+		background-color: #fafafa;
+		padding: 10px 20px;
+		border: 1px solid #eee;
+
+	}
+	.cart-footer{
+		text-align: right;
+		padding: 0;
+		border: 0px solid #eee;
+	}
+	.cart-header div,
+	.item div{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.chkall{
+		width: 116px;
+	}
+	.chkbx{
+		width: 30px;
+	}
+	.image, .image img{
+		width: 80px;
+	}
+	.product{
+		width: 250px;
+		margin-right: 130px;
+		padding-left: 17px;
+	}
+	.price,
+	.numinput,
+	.sum{
+		width: 100px;
+	}
+	.price,
+	.sum{
+		text-align: right;
+	}
+	.numinput{
+		text-align: center;
+		position: relative;  /* 父容器相对定位 */
+		overflow: hidden;  /* 溢出隐藏 */
+	}
+	.price{
+		padding-right: 30px;
+	}
+	.decrease, .increase, .num{
+		border: 1px solid #ddd;
+		float: left;
+		/*高度与行高一致，则垂直对齐内部文本*/
+		height: 20px;
+		line-height: 20px;
+		padding: 1px;
+		text-align: center;
+	}
+	.decrease, .increase{
+		width: 20px;
+		text-decoration: none;
+		background-color: #f6f6f6;
+		color: #666;
+		font-family: Arial;
+	}
+	.num{
+		width: 50px;
+		border-width: 1px 0;
+		font: 14px Arial;  /* 使输入框的字体与动画元素的字体一样，达到重合效果 */
+	}
+	.item .sum{
+		font-weight: bold;
+	}
+	.count,
+	.total{
+		color: #428e4;
+		font-weight: bold;
+	}
+	.total{
+		font-size: 1.5em;
+	}
+	.num-span{  /* 动画元素的类，样式设计成与输入框重合并对齐 */
+		position: absolute;
+		left: 24px;
+		width: 50px;
+		height: 40px;  /* 两行：20px*2 */
+		border: 1px solid transparent;
+		border-width: 1px 0;
+		padding: 1px;
+		font: 14px Arial;  /* 与.num的字体一样 */
+		line-height: 20px;
+	}
+
+	.caculate{
+		height: 50px;
+		border: none;
+    	background: #659366;
+    	color: white;
+    	width: 75px;
+
+	}
+
+/*shop*/
+	.cart1{
+		border: 1px solid #dadada;
+		width: 83%;
+		margin: 10px auto;  /*水平居中*/
+	}
+	.price1,
+	.numinput1,
+	.sum1{
+		width: 70px;
+		text-align: center;
+	}
+
+	.ddh{
+		width: 100px;
+		padding-left: 10px;
+		text-align: center;
+	}

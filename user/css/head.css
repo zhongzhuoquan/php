@@ -1,0 +1,123 @@
+/*登录框css*/
+.overCurtain {
+    border-top:1px solid rgb(230,245,255);
+    position:absolute;
+    height:100%;
+    width:100%;
+    left:0px;
+    top:0px;
+    opacity:0.7;
+    display:none;
+    background-color:rgb(230,245,255);
+}
+.hide-center {
+    width:308px;
+    height:300px;
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+    display:none;
+    z-index:1;
+}
+.hide-center #formhead {
+    width:300px;
+    height:42px;
+    margin:0;
+    padding-top:12px;
+    padding-bottom:-30px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color: #619266;
+}
+.hide-center #formhead-title {
+    width:100px;
+    height:24px;
+    margin-left:106px;
+    margin-right:36px;
+    color:#edf3ee;
+    font-weight:900;
+    display:inline-block;
+}
+.hide-center #close {
+    width:35px;
+    height:20px;
+    border:0;
+    border-radius:20%;
+    background: none;
+    color:white;
+    display:inline-block;
+    outline: none;
+}
+
+.hide-center #formbody {
+    width:300px;
+    height:245px;
+    background-color:#f9f9f9d1;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.hide-center .loginHead {
+    margin-right:-8px;
+    padding:13px;
+    width:25px;
+    height:28px;
+    background-color:#141414;
+    vertical-align:middle;
+}
+.hide-center .loginInput {
+    height:52px;
+    width:230px;
+    padding-left:10px;
+    border:0;
+    background-color:#e3e3e3;
+    color:#959595;
+    outline: none;
+}
+.hide-center .loginUserName {
+    padding-left:30px;
+    padding-top:30px;
+}
+.hide-center .login1 #img-topleft-loginHead {
+    border-top-left-radius:5px;
+}
+.hide-center .login1 #input-topright-loginInput {
+    border-top-right-radius:5px;
+}
+.hide-center .login1 #img-bottomleft-loginHead {
+    border-bottom-left-radius:5px;
+}
+.hide-center .login1 #input-bottomright-loginInput {
+    border-bottom-right-radius:5px;
+}
+.hide-center .loginPassword {
+    padding-left:30px;
+}
+.hide-center #formfoot {
+    margin-top:30px;
+    margin-left:30px;
+}
+.hide-center #BSignIn {
+    border:0;
+    background:#619266;
+    color:#fff;
+    width:120px;
+    height:30px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.hide-center #BSignIn_1 {
+    border:0;
+    background:#619266;
+    color:#fff;
+    width:120px;
+    height:30px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}

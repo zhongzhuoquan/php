@@ -1,0 +1,100 @@
+body{
+	background-color: #fff;
+}
+.header {
+    height: 110px;
+    box-shadow: 0 6px 6px #dfe3df;
+    color:#333;
+}
+
+.logo{
+	margin-top: 20px;
+	font-size: 38px;
+    color: #659366;
+    display: inline-block;
+}
+
+.welcome{
+	font-size: 24px;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.back{
+	display: inline-block;
+	padding-top: 55px;
+	font-size: 17px;
+}
+
+.form-group{
+	width: 72%;
+	border-right: solid 1px #e6e6e6;
+}
+
+.list-group{
+	position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    margin: 42px 60px;
+}
+
+.form-group label {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #525252;
+    font-weight: normal
+}
+
+.form-group input{
+	position: absolute;
+    z-index: 2;
+    line-height: 46px;
+    margin-left: 20px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    display: inline;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+
+.register >input{
+	width: 100%;
+	margin: 0;
+	margin-top: 1px;
+	height: 100%;
+	background: #659366;
+	color: #FFF;
+}
+
+.col-md-4 img{
+	width: 135%;
+	float: right;
+	margin: 70px 0 28px 0;
+}
+
+.gy{
+	text-align: right;
+	height: auto;
+	margin-right: 2px;
+}
+
+.gy p{
+	margin-top: -15px;
+}
+
+.img_code{
+    position: absolute;
+    right:2px;
+    top: 2px;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+    border: none;
+}

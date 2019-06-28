@@ -1,0 +1,315 @@
+@charset "utf-8";
+
+*{ margin:0px; padding:0px; }/*设置网页html中所有标签成员的css样式为padding为0，margin为0*/
+img{ border:none;}/*图片边框为0*/
+a{text-decoration:none;}/*设置链接样式*/
+.clear{ clear:both;}/*以清除float产生的浮动*/
+/*解决HTML5新标签不兼容*/
+abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video { display: block; }
+address { display: inline; }/*标签的充填和间距设置为0像素，解决浏览器兼容问题*/
+/**/
+*{  padding:0px; margin:0px;}
+body{font-family:"微软雅黑";}
+ul,li,image,h1,h2,h3,h4,dl,dt,dd,p,span,a{padding:0; margin:0; list-style:none; border:0; font-family:"微软雅黑","Arial";}/*标签的充填和间距设置为0像素，解决浏览器兼容问题*/
+h1,h2,h3,h4{font-family:"微软雅黑"; border:0px; margin:0px; padding:0px; font-weight:normal;}
+img{ padding:0px; border:0px;}
+a{ color:#000; text-decoration:none;}
+a:hover{text-decoration:none; text-decoration:underline;}
+.fl{ float: left;}
+.fr{ float: right;}
+.fr.fl{display:inline; }/*默认。此元素会被显示为内联元素，元素前后没有换行符*/
+.mauto{ margin: 0 auto; width: 1240px;}
+.txt_c{ text-align: center;}/*把文本排列到中间*/
+.f12,.f14,.f16,.f18,.f20,.f24{ font-weight: normal; color: #333333/*灰色*/; font-family: "Microsoft YaHei","微软雅黑";}
+.f12{ font-size: 12px; font-family: "Microsoft YaHei","微软雅黑";}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.f18{ font-size: 18px;}
+.f20{ font-size: 20px;}
+.f24{ font-size: 24px;}
+input,button,select,textarea{outline:none/*设置轮廓属性*/; border: none; background: none;}
+textarea{resize:none}/* 	用户无法调整元素的尺寸*/
+
+.showbot{float: left;}
+#showbox { background:#eee;}
+#showbox img{ width:400px;height: 400px;}
+#showbox span { background:url(../images/whitebg.png) repeat;}
+#showsum { left:25px; margin-top:10px;}
+#showsum span { border:1px solid #ddd;}
+#showsum span.sel { border:1px solid #f60;}
+
+.showpage { width:400px; position:relative;}
+.showpage a { display:block; width:15px; border:1px solid #ddd; height:60px; line-height:60px; background:#eee; text-align:center; font-size:18px; position:absolute; left:0; top:-62px; text-decoration:none; color:#999;}
+.showpage a#shownext { left:auto; right:0;}
+.showpage a:hover { background:#ccc; color:#777;}
+
+.showall{
+	width: 1240px;
+	margin: 0 auto;
+	margin-top: 15px;
+	height:500px;	
+}
+/*right*/
+.tb-property{
+	width:530px;
+	height: 520px;
+	margin-left: 150px;
+	float: left;
+	
+}
+
+/*商品名称*/
+.tr-nobdr{
+	margin-top: 20px;
+	padding-bottom: 10px;/*设置元素的下内边距（底部空白）*/
+}
+.tr-nobdr h3{
+	color: #171717;
+	font-size: 28px;
+	font-weight:400;
+}
+/*价格*/
+.txt{
+	width: 520px;
+	margin-top: 15px;
+	overflow: hidden;
+	background:#f8f8f8;
+}
+.nowprice{
+	display: block;
+	line-height: 100px;
+	color:  #f73a3a;
+	font-size: 24px;
+	float: left;
+}
+.nowprice a{
+	font-size: 36px;
+	color:#f73a3a;
+}
+.nowprice a:hover{text-decoration: none;}
+.cumulative{float: right;}
+.number{
+	float: left;
+	margin-top: 30px;
+	padding: 0px 10px;
+	border-right: #e7e7e7 solid 1px;
+	font-size: 14px;
+	text-align: center;
+	color: #bfbfbf;
+}
+.number em{
+	color: #5885c6;
+	font-style:normal
+}
+/*数量*/
+.gcIpt{
+	height: 70px;
+}
+.guT{
+	color: #848484;
+	font-size: 14px;
+	padding-right:18px;
+	line-height: 70px;
+}
+.gcIpt input{
+	border: #e3e3e3 solid 1px;
+	padding: 5px 8px;
+	color: #848484;
+	font-size: 16px;}
+.nobdr-btns{
+	padding-top: 25px;
+}
+/*库存*/
+.Hgt{ color: #424242; font-size:14px; padding-left: 10px;}
+.addcart{
+	background: #fd532d;
+	padding: 0px 50px;
+	border-radius: 4px;
+	color: #FFFFFF;
+	margin-right: 10px;
+	font-size:16px;
+	line-height: 50px;
+}
+.yh{ background: #e60013;}
+.addcart img{vertical-align:middle;margin-bottom:3px;padding-right: 5px;}
+
+/*邮费：包邮，货到付款*/
+.guarantee{
+	height: 50px;
+}
+.guarantee span{
+	color: #666666;
+	font-size: 14px;
+	line-height: 50px;}
+.guarantee span a img{vertical-align:middle;margin-bottom:3px;}
+
+/*   商品评论    */
+.under{
+	width: 1240px;
+	margin: 0 auto;
+	clear: both;
+}
+/*线条*/
+.lines{
+	width: 1240px;
+	height:2px;
+	margin: 0 auto;
+	clear: both;
+	float:right;
+	background-color:#186520;
+}
+.lines2{
+	width: 100%;
+	height:1px;
+	margin-top:60px;
+	clear: both;
+	background-color:#186520;
+}
+.lines3{
+	width: 100%;
+	height:1px;
+	margin-top:15px;
+	clear: both;
+	background-color:#186520;
+}
+
+/*介绍与评论栏目*/
+.active_tab{
+	width:90%;
+	margin:0 auto;
+	margin-bottom: 0px;
+	height:37px;
+	line-height:37px;
+	background:#FFF;	
+}
+.active_tab a{
+	color:#000;
+	font-size: 18px;
+	text-decoration:none;
+}
+.active_tab a:hover{
+	color:#FFF;
+	text-decoration:none;
+	font-size:18px;
+}
+.act_title_left{
+	float:left;
+	width:70%;
+}
+.act_title_left li{
+	float:left;
+	width:150px;
+	color:#666666;
+	text-align:center;
+	height:37px
+}
+.act_active{
+	background:#1D5F20;/*green*/
+	border-bottom:none !important;
+	color: #ffffff;
+	float:left;
+}
+.act_active a{
+	color:#ffffff; 
+	font-size: 18px;
+}
+.act_title_right{  
+	float:right;
+}
+.active_list{
+	width:1200px;
+	margin:auto;
+	margin-top:50px;
+}
+.active_list a{
+	text-decoration:none;
+}
+
+<!--商品介绍-->
+#ui-a{
+	width: 1000px;
+	height: 100%;
+	margin-top:20px;
+	overflow: hidden;
+	background-color:#03C;
+}
+#ui-a ul{
+	width:950px;
+	margin-top:20px;
+	margin-left:5%;
+}
+#ui-a ul li{
+	width:950px;
+	height: 100%;
+	color: #424242;
+	font-size: 18px;
+	line-height: 2;
+	overflow: hidden;
+}	
+<!--商品评论-->
+#ui-b{
+	width: 950px;
+	height: 100%;
+	overflow: hidden;
+}
+#ui-b ul{
+	width:950px;
+	margin-top:20px;
+	margin-left:5%;
+}
+#ui-b ul li{
+	width:1160px;
+	height: 100%;
+	color: #424242;
+	font-size: 18px;
+	line-height: 2;
+	overflow: hidden;
+}
+#ui-b ul li img{
+	width:60px;
+	height:60px;
+	float:left;
+	display: block;
+}
+#input1{
+	width:200px;
+	height:50px;
+	border:2px #ccc solid;
+	border-radius: 7px;
+}
+#input1:focus{
+	width:450px;
+	height:80px;
+	border-color: #186520;
+	font-size:20px;
+	outline: 0;
+	transition: width 2s;
+    -moz-transition: width 2s; /* Firefox 4 */
+    -webkit-transition: width 2s; /* Safari 和 Chrome */
+    -o-transition: width 2s; /* Opera */
+}
+#input2{
+	width:50px;
+	height:30px;
+	color: #000;
+	background-color:#FFF;
+	text-decoration: none;
+	border-top: 0px solid #000;
+	border-left: 0px solid #000;
+	border-bottom: 1px solid #186520;
+	border-right: 1px solid #186520;
+	border-radius:5px;
+}
+/*侧边定义高度*/
+.detail{
+	float:right;
+}
+.aside{
+	width:0px;
+	height:900px;
+	float: left;
+	border: 0px;
+	background-color:#000;
+}
+
+
